@@ -2,12 +2,16 @@
 
 来自豆友们在疫情期间的记录，大部分来自湖北省。暂定范围为豆瓣，未来可能有所扩增。  
 
+欢迎访问[网站](https://2020ncov-individual-archives.netlify.com/)  
+
 _(以及，非常感谢大家的Star，受之惶恐。)_  
 
 以及弱弱求助，欢迎大力拍砖🛠：在写scripts来抓取网页内容（高度依赖rvest package）：  
 - 目前尚未解决的困难是 **如何将网页中的 _文字_ & _图片_ & _图片描述_ 同时写入.md文件**  
 - 已实现的功能：抓取豆瓣日记页面中的“日记正文”部分并生成.md，下载豆瓣日记页面中的图片并保存至./pic/  
 - fyi: scripts在./scrape_scripts/scrape_douban_diary_with_pics.R  
+regarding the website:  
+- generate asset dir for each of the .md files
 
 
 ## 💻项目结构  
@@ -90,7 +94,6 @@ or mailto: jiayiliujiayiliu@gmail.com
    - [OpenSourceWuhan](https://weileizeng.github.io/OpenSourceWuhan/): A collection of Open Source projects for supporting Wuhan during 2019-nCoV  
    - [疫情与舆情：武汉新冠肺炎时间线TIMELINE](https://github.com/Pratitya/wuhan2020-timeline):努力记录自2019年12月起武汉新冠肺炎疫情进展的时间线，尽可能搜集信息，因为假若有敏感内容，墙内容易炸号，故有此项目。  
 
-
 **TODO**  
 **_Reproduce Authorization_**  
 reproduce authorized by the author, to be added:  
@@ -112,6 +115,8 @@ reproduce authorized by the author, to be added:
 - [x] JoyceCheng  
 - [ ] 小钻风  
   - [ ] pics pending
+- [x] 金树树
+- [x] Mr. Cancer
 - [x] 大猪花  
 - [x] 美猴王大世界  
 - [X] 邓安庆  
@@ -146,8 +151,8 @@ reproduce authorization pending:
 - [x] 大猪花  
 - [ ] 香菇小姐  
 - [ ] Xiaozhang  
-- [ ] 金树树
-- [ ] Mr. Cancer
+- [x] 金树树
+- [x] Mr. Cancer
 - [X] 美猴王大世界
 - [X] JoyceCheng  
 <!--- 
@@ -158,6 +163,7 @@ reproduce authorization pending:
 
 **_Translation Authorization_**  
 translation authorized by the author, to be added:  
+
 - [ ] 美猴王大世界
 - [ ] 小钻风
 - [x] test2  
